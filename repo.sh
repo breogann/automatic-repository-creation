@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Creating the remote & local repos
-curl -u $1 https://api.github.com/user/repos -d "{ \"name\": \"$2.git\" ,\"private\": \"true\"}" 
+curl -u $1 https://api.github.com/user/repos -d "{ \"name\": \"$2.git\" ,\"private\": \"false\"}" 
 git clone https://github.com/$1/$2.git
 
 cd $2
