@@ -25,5 +25,5 @@ open .
 
 open -a iTerm .
 
-jupyter-notebook
+jupyter notebook
 open http://localhost:8888
